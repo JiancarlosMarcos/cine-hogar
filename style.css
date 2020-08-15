@@ -6,7 +6,7 @@ body{
     background-color: rgba(248,249,250,0.1);
 }
 .b{
-    border: solid 1px white;
+    border: solid 2px red;
 }
 .my-parrafo{
     font-size: 1.3em;
@@ -44,12 +44,18 @@ footer{
 /*############ responsive #########*/
 
 
-@media (min-width: 576px) {
-    
+@media (min-width: 300px) {
+    .my-parrafo-icono{
+        font-size: .8em;
+        font-weight: 300;
+    }
 }
   
 @media (min-width: 768px) {
-   
+    /* .my-parrafo-icono{
+        font-size: .7em;
+        font-weight: 300;
+    } */
 }
   
 @media (min-width: 992px) {
